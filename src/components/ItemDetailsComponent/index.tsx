@@ -1,8 +1,10 @@
 import React from 'react';
-import { Animated, Dimensions, ScrollView, Text, View } from 'react-native';
+import { Animated, ScrollView, Text, View } from 'react-native';
 import ColorsComponent from '../ColorsComponent';
 import SizeComponent from '../SizeComponent';
 import styles from './styles';
+import colorList from '../ColorsComponent/colorList';
+import sizeList from '../SizeComponent/sizeList';
 
 interface IProps {
   setCurrentIndex(index: number): void;
@@ -10,8 +12,6 @@ interface IProps {
   scrollY: Animated.AnimatedValue;
   currentColorIndex: number;
 }
-
-const { width, height } = Dimensions.get('window');
 
 class ItemDetailsComponent extends React.Component<IProps> {
   private _onScroll: (e: any) => void = (e) => {
@@ -33,7 +33,7 @@ class ItemDetailsComponent extends React.Component<IProps> {
         <View>
           <View style={styles.rowBetween}>
             <Text style={styles.sectionTitle}>Colors</Text>
-            <Text style={styles.sectionSubTitle}>5</Text>
+            <Text style={styles.sectionSubTitle}>{colorList.length}</Text>
           </View>
           <ColorsComponent
             setCurrentIndex={this.props.setCurrentIndex}
@@ -43,7 +43,9 @@ class ItemDetailsComponent extends React.Component<IProps> {
         <View>
           <View style={styles.rowBetween}>
             <Text style={styles.sectionTitle}>Size</Text>
-            <Text style={styles.sectionSubTitle}>3.5-18</Text>
+            <Text style={styles.sectionSubTitle}>
+              {`${sizeList[0].content}-${sizeList[sizeList.length - 1].content}`}
+            </Text>
           </View>
           <SizeComponent />
         </View>

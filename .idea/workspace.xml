@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2523c56-8138-4b50-b7e5-ffa016e1eb04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/commonStyle.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ColorsComponent/colorList.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ColorsComponent/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ColorsComponent/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CoverComponent/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CoverComponent/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ItemDetailsComponent/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ItemDetailsComponent/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SizeComponent/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SizeComponent/sizeList.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SizeComponent/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listImages.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemDetailsComponent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemDetailsComponent/index.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,12 +23,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/ItemDetailsComponent/styles.ts">
+        <entry file="file://$PROJECT_DIR$/src/components/ItemDetailsComponent/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="659">
+              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
               <folding>
-                <element signature="e#0#64#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,7 +61,6 @@
         <option value="$PROJECT_DIR$/src/listImages.ts" />
         <option value="$PROJECT_DIR$/src/components/Header.tsx" />
         <option value="$PROJECT_DIR$/App.tsx" />
-        <option value="$PROJECT_DIR$/src/components/ItemDetailsComponent/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/ColorsComponent/styles.ts" />
         <option value="$PROJECT_DIR$/src/components/CoverComponent/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/CoverComponent/styles.ts" />
@@ -83,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/components/SizeComponent/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/ColorsComponent/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/ItemDetailsComponent/styles.ts" />
+        <option value="$PROJECT_DIR$/src/components/ItemDetailsComponent/index.tsx" />
       </list>
     </option>
   </component>
@@ -131,20 +117,6 @@
               <item name="shoesStore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ColorsComponent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="CoverComponent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shoesStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoesStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="ItemDetailsComponent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -158,8 +130,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="NBKnowledgePane" />
       <pane id="Scope" />
+      <pane id="NBKnowledgePane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,17 +181,18 @@
       <updated>1553156781850</updated>
       <workItem from="1553156783162" duration="34977000" />
       <workItem from="1553281830060" duration="8338000" />
+      <workItem from="1553467142077" duration="194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43315000" />
+    <option name="totallyTimeSpent" value="43509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16849817" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17032968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Storybook" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -305,23 +278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SizeComponent/sizeList.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-205">
-          <caret line="110" column="4" lean-forward="true" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ItemDetailsComponent/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CoverComponent/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -382,10 +338,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ItemDetailsComponent/styles.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="355">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SizeComponent/sizeList.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="110" column="4" lean-forward="true" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ItemDetailsComponent/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
