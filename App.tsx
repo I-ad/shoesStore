@@ -1,23 +1,40 @@
 import * as React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Animated, SafeAreaView, View } from 'react-native';
+import CoverComponent from './src/components/CoverComponent';
+import ItemDetailsComponent from './src/components/ItemDetailsComponent';
 
-export default class App extends React.Component<{}> {
+interface IState {
+  scrollY: Animated.AnimatedValue;
+  currentColorIndex: number;
+}
+
+export default class App extends React.Component<{}, IState> {
+  constructor(props: {}) {
+    super(props);
+    this.state = {
+      scrollY:           new Animated.Value(0),
+      currentColorIndex: 0,
+    };
+  }
+
+  public setCurrentColorIndex: (currentColorIndex: number) => void = (currentColorIndex) => {
+    this.setState({ currentColorIndex });
+  };
+
   public render() {
+    const { scrollY } = this.state;
     return (
-      <View style={styles.container}>
-        <Text>Open up App.ts to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
+      <View style={{ flex: 1}}>
+        <ItemDetailsComponent
+          scrollY={scrollY}
+          setCurrentIndex={this.setCurrentColorIndex}
+          currentColorIndex={this.state.currentColorIndex}
+        />
+        <CoverComponent
+          currentColorIndex={this.state.currentColorIndex}
+          scrollY={scrollY}
+        />
       </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex:            1,
-    backgroundColor: '#fff',
-    alignItems:      'center',
-    justifyContent:  'center',
-  },
-});
