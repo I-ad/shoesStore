@@ -1,5 +1,5 @@
 import React from 'react';
-import { Animated, Image, ScrollView, Dimensions, ImageStyle } from 'react-native';
+import { Animated, ImageStyle } from 'react-native';
 import listImage from '../../listImages';
 import styles, { HEADER_MAX_HEIGHT, HEADER_MIN_HEIGHT, HEADER_SCROLL_DISTANCE } from './styles';
 
@@ -7,8 +7,6 @@ interface IProps {
   currentColorIndex: number;
   scrollY: Animated.AnimatedValue;
 }
-
-const { width, height } = Dimensions.get('window');
 
 class CoverComponent extends React.Component<IProps> {
 

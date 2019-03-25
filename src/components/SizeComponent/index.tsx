@@ -29,9 +29,6 @@ class SizeComponent extends React.Component<{}, IState> {
     this._panResponder = PanResponder.create({
       onStartShouldSetPanResponder: () => true,
       onMoveShouldSetPanResponder:  () => Platform.OS !== 'ios',
-      onPanResponderGrant:          (e, gestureState) => {
-        //
-      },
       onPanResponderMove:           (e, gestureState) => {
         if (gestureState.dx > 0) {
           Animated.timing(this.state.markerX, {

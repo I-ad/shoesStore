@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Animated, SafeAreaView, View } from 'react-native';
+import { Animated, View } from 'react-native';
 import CoverComponent from './src/components/CoverComponent';
 import ItemDetailsComponent from './src/components/ItemDetailsComponent';
 
